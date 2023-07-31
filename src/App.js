@@ -1,10 +1,12 @@
 //import logo from './logo.svg';
 import './App.css';
 import WithSubnavigation from './Components/WithSubnavigation';
+import WithSubnavigation1 from './Components/WithSubnavigation1';
 
 function App() {
   return (
     <div className="App">
+      <WithSubnavigation1/>
       <WithSubnavigation/>
       </div>
       )
