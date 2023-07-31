@@ -17,6 +17,6 @@ const theme = extendTheme({
     },
   })
   function Example() {
-    return <Box textStyle='h1'>Carter's</Box>
+    return <Box textStyle='h1'>https://1000logos.net/wp-content/uploads/2020/02/carters-babies-and-kids-logo.jpg</Box>
   }
   export  default  Example;

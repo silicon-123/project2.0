@@ -53,8 +53,7 @@ import {
             <Text
               textAlign={useBreakpointValue({ base: 'center', md: 'left' })}
               fontFamily={'heading'}
-              color={useColorModeValue('gray.700', 'Gray')}
-              background-color={'red'}>
+              color={useColorModeValue('gray.700', 'Gray')}>
                
                  little Planet 
                  oshkosh's  
