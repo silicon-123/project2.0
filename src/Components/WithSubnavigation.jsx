@@ -1,3 +1,5 @@
+
+import Example from "../theme/carter";
 import {
     Box,
     Flex,
@@ -36,7 +38,7 @@ import {
           px={{ base: 4 }}
           borderBottom={1}
           borderStyle={'solid'}
-          borderColor={useColorModeValue('gray.200', 'gray.900')}
+          borderColor={useColorModeValue('blue.700', 'blue.900')}
           align={'center'}>
           <Flex
             flex={{ base: 1, md: 'auto' }}
@@ -51,11 +53,11 @@ import {
           </Flex>
           <Flex flex={{ base: 1 }} justify={{ base: 'center', md: 'start' }}>
             <Text
-              textAlign={useBreakpointValue({ base: 'center', lg: 'left' })}
+              textAlign={useBreakpointValue({ base: 'center', md: 'left' })}
               fontFamily={'heading'}
-              color={useColorModeValue('gray.800', 'Blue')}>
-              Carter's
-            </Text>
+              color={useColorModeValue('blue.700', 'Blue')}>
+                  <img style={{width:'200px' , height:'100px'}}src="https://1000logos.net/wp-content/uploads/2020/02/carters-babies-and-kids-logo.jpg" alt="Carter's"/> 
+           </Text>
   
             <Flex display={{ base: 'none', md: 'flex' }} ml={10}>
               <DesktopNav />
