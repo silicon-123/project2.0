@@ -49,16 +49,17 @@ export default function Home() {
     {
       image:
         "https://scontent.fbbi5-1.fna.fbcdn.net/v/t31.18172-8/15129688_10153921018156587_1505068587621837870_o.jpg?_nc_cat=102&ccb=1-7&_nc_sid=9267fe&_nc_ohc=H1UF2-JFen0AX8g2QxT&_nc_ht=scontent.fbbi5-1.fna&oh=00_AfCIfUEljh0o1gGbCHEd3sny_0DNQs5Wy9kn5pTLSET_0A&oe=64F02730",
-        href:"products",
+      href: "products",
     },
     {
       image:
         "https://freebies2deals.com/wp-content/uploads/2014/01/freebies2deals-carters-clearance.png",
-        href:"products",
+      href: "products",
     },
     {
-        image:"https://mms.businesswire.com/media/20230410005405/en/1760073/4/CRI_Airplane_Apology_Image_April_2023_FINAL.jpg?download=1",
-    }
+      image:
+        "https://mms.businesswire.com/media/20230410005405/en/1760073/4/CRI_Airplane_Apology_Image_April_2023_FINAL.jpg?download=1",
+    },
   ];
   const data = [
     {
@@ -77,7 +78,6 @@ export default function Home() {
       img: "https://images.ctfassets.net/621t91s0mnkp/4QO99yChcfgWZ3BbEk25FI/bf5d9b24fa2c888181ca36e7d1b36c0a/car_desktop_072723_sec4_shoes.jpg",
       title: "Stock-up for Sale",
     },
-    
   ];
   const data2 = [
     {
@@ -87,10 +87,9 @@ export default function Home() {
   ];
   const data3 = [
     {
-
       img: "https://images.ctfassets.net/621t91s0mnkp/2wLBA2NR9SvUHAhgUDiLO6/3ea5061ccc8937fab2e83af7bfeec1e2/car_Q2_babygirl_blue.png",
       title: "Baby Girl",
-      href:'Baby Girl',
+      href: "Baby Girl",
     },
     {
       img: "https://images.ctfassets.net/621t91s0mnkp/75F4rtYujbXXybJbDgHAup/cfa6276f45611fe3c12bb1cf2fd55ba5/car_Q2_todgirl_blue.png",
@@ -133,44 +132,42 @@ export default function Home() {
       title: "Shoes",
     },
     {
-      img:"https://images.ctfassets.net/621t91s0mnkp/43TO7zZ6fG9promfUhk2Re/5272a8030ed6813d4cc6d9c5debb061d/shopourfaves_clr.png",
-      title:"Clearance",
+      img: "https://images.ctfassets.net/621t91s0mnkp/43TO7zZ6fG9promfUhk2Re/5272a8030ed6813d4cc6d9c5debb061d/shopourfaves_clr.png",
+      title: "Clearance",
     },
   ];
   const data4 = [
     {
-        label:"Deal for You",
-        children:[
-            {
-                title:"Deal for You",
-                img: "https://edge.disstg.commercecloud.salesforce.com/dw/image/v2/AAMK_PRD/on/demandware.static/-/Sites-carters_master_catalog/default/dw5557eb47/productimages/3O961210.jpg?sw=470",
-                title: "$8.00",
-              },
-              {
-                img: "https://edge.disstg.commercecloud.salesforce.com/dw/image/v2/AAMK_PRD/on/demandware.static/-/Sites-carters_master_catalog/default/dwa397097a/productimages/3K589310.jpg?sw=470",
-                title: "$8.00",
-              },
-              {
-                img: "https://edge.disstg.commercecloud.salesforce.com/dw/image/v2/AAMK_PRD/on/demandware.static/-/Sites-carters_master_catalog/default/dwda1cee5c/productimages/3H739410.jpg?sw=470",
-                title: "$12.00",
-              },
-              {
-                img: "https://edge.disstg.commercecloud.salesforce.com/dw/image/v2/AAMK_PRD/on/demandware.static/-/Sites-carters_master_catalog/default/dw3adf6ceb/productimages/1N724810.jpg?sw=470",
-                title: "$7.89",
-              },
-              {
-                img:"https://edge.disstg.commercecloud.salesforce.com/dw/image/v2/AAMK_PRD/on/demandware.static/-/Sites-carters_master_catalog/default/dwf6af3c2a/productimages/2P496611.jpg?sw=470",
-                title:"$4.49",
-              },
-              {
-                img:"https://edge.disstg.commercecloud.salesforce.com/dw/image/v2/AAMK_PRD/on/demandware.static/-/Sites-carters_master_catalog/default/dw0c4b2cd8/productimages/1P042410.jpg?",
-                title:"$11.00",
-              },
-            ],
+      label: "Deal for You",
+      children: [
+        {
+          title: "Deal for You",
+          img: "https://edge.disstg.commercecloud.salesforce.com/dw/image/v2/AAMK_PRD/on/demandware.static/-/Sites-carters_master_catalog/default/dw5557eb47/productimages/3O961210.jpg?sw=470",
+          title: "$8.00",
         },
-        ];
-  
-  
+        {
+          img: "https://edge.disstg.commercecloud.salesforce.com/dw/image/v2/AAMK_PRD/on/demandware.static/-/Sites-carters_master_catalog/default/dwa397097a/productimages/3K589310.jpg?sw=470",
+          title: "$8.00",
+        },
+        {
+          img: "https://edge.disstg.commercecloud.salesforce.com/dw/image/v2/AAMK_PRD/on/demandware.static/-/Sites-carters_master_catalog/default/dwda1cee5c/productimages/3H739410.jpg?sw=470",
+          title: "$12.00",
+        },
+        {
+          img: "https://edge.disstg.commercecloud.salesforce.com/dw/image/v2/AAMK_PRD/on/demandware.static/-/Sites-carters_master_catalog/default/dw3adf6ceb/productimages/1N724810.jpg?sw=470",
+          title: "$7.89",
+        },
+        {
+          img: "https://edge.disstg.commercecloud.salesforce.com/dw/image/v2/AAMK_PRD/on/demandware.static/-/Sites-carters_master_catalog/default/dwf6af3c2a/productimages/2P496611.jpg?sw=470",
+          title: "$4.49",
+        },
+        {
+          img: "https://edge.disstg.commercecloud.salesforce.com/dw/image/v2/AAMK_PRD/on/demandware.static/-/Sites-carters_master_catalog/default/dw0c4b2cd8/productimages/1P042410.jpg?",
+          title: "$11.00",
+        },
+      ],
+    },
+  ];
 
   const data8 = [
     {
@@ -181,13 +178,12 @@ export default function Home() {
     {
       img: "https://images.ctfassets.net/621t91s0mnkp/DwG2ChYZy1kpXQc83NTtD/d2be3137a2fb35123d0ae3011233c62b/car_desktop_071323_sec2_purelysoft.png",
       name: "Purely soft pajamas",
-      title:"Shop aour strchy ,snuggly new sleep collection.",
+      title: "Shop aour strchy ,snuggly new sleep collection.",
     },
     {
       img: "https://images.ctfassets.net/621t91s0mnkp/78yNsW5xgn6dJNZSuosi0z/3ce6c887b4992faae213a98d51776b0a/car_desktop_072523_sec4_halloween.jpg",
       name: "Halloween Shop",
-      title:
-        "Treat the whole fam to new ,spooky cute styles.",
+      title: "Treat the whole fam to new ,spooky cute styles.",
     },
   ];
   return (
@@ -256,9 +252,10 @@ export default function Home() {
                   height="100%"
                   position="relative"
                 >
-                    <image 
-                    objectFit='cover'
-                    maxW={{ base: '100%', sm: '200px'}}/>
+                  <image
+                    objectFit="cover"
+                    maxW={{ base: "100%", sm: "200px" }}
+                  />
                   <Stack
                     spacing={6}
                     w={"full"}
@@ -293,7 +290,7 @@ export default function Home() {
               <Button
                 style={{
                   width: "1000px",
-                  backgroundColor: "Blue",
+                  backgroundColor: "#6ea2f5",
                   mt: "-100px",
                   position: "relative",
                   bottom: "1px",
@@ -332,9 +329,15 @@ export default function Home() {
           </div>
         ))}
       </Grid>
-      <Grid templateColumns="repeat(3,30%)" ml="5%" gap="3" mt="40px" style={{backgroundColor:"gray"}}>
+      <Grid
+        templateColumns="repeat(3,30%)"
+        ml="5%"
+        gap="3"
+        mt="40px"
+        style={{ backgroundColor: "white" }}
+      >
         {data3.map((item, i) => (
-          <div key={i} >
+          <div key={i}>
             <RouterLink to="/products">
               <Box>
                 <img src={item.img} width="50%" />
@@ -344,13 +347,13 @@ export default function Home() {
               <Button
                 style={{
                   width: "auto",
-                  backgroundColor: "blue",
+                  backgroundColor: "#67bdeb",
                   mt: "-10px",
                   position: "center",
                   bottom: "1px",
                   borderRadius: "10%",
-                  href:'item.title',
-                  variant:'outline',
+                  href: "item.title",
+                  variant: "outline",
                 }}
               >
                 {item.title}
@@ -386,18 +389,13 @@ export default function Home() {
         ))}
       </Grid>
 
-    
       <Text style={{ marginLeft: "68px" }}> You May Also Like</Text>
       <hr />
-      <Final/>
+      <Final />
 
-     
-
-      <Text style={{ marginLeft: "68px", marginTop: "90px", }}> Trending</Text>
+      <Text style={{ marginLeft: "68px", marginTop: "90px" }}> Trending</Text>
       <hr />
-      <Final1/>
-
-     
+      <Final1 />
 
       <Center>
         <Text style={{ marginLeft: "68px", marginTop: "90px" }}> More</Text>
@@ -418,8 +416,12 @@ export default function Home() {
                 <img src={item.img} width="100%" />
               </Box>
             </RouterLink>
-            <Text fontWeight="300" backgroundColor={"blue.200"}>{item.name}</Text>
-            <Text fontSize="12" backgroundColor={"blue.200"}>{item.title}</Text>
+            <Text fontWeight="300" backgroundColor={"blue.200"}>
+              {item.name}
+            </Text>
+            <Text fontSize="12" backgroundColor={"blue.200"}>
+              {item.title}
+            </Text>
           </div>
         ))}
       </Grid>
@@ -442,12 +444,20 @@ export default function Home() {
 
       <Text style={{ marginLeft: "68px", marginTop: "30px" }}>
         {" "}
-        *EXCLUSIONS AND DISCLAIMERS.
-        UP TO 50% OFF: Savings based on MSRP. Select styles. Excludes Select New Arrivals, LITTLE PLANET®, Sneak Peek, Treasure Box, Licensed Styles, SKIP HOP®, Doorbusters, and Clearance. Other exclusions may apply.
-        *MSRP is our Manufacturer’s Suggested Retail Price at which we suggest our collections be initially offered. We list an MSRP on our products that we sell ourselves and that sell through our wholesale partners. Our wholesale partners are free to use our MSRP or set a different selling price. We generally introduce our new collections at MSRP on our website. Since MSRP is a suggested price, actual sales may or may not have been made at MSRP in any certain area or in all areas. Prices may vary by channel or location.
-        Many of our collections have a DOB (Date of Birth) on the price tag or on their website product page. This is the date that this item or a similar item was originally offered for sale at the MSRP.....
-        
-        
+        *EXCLUSIONS AND DISCLAIMERS. UP TO 50% OFF: Savings based on MSRP.
+        Select styles. Excludes Select New Arrivals, LITTLE PLANET®, Sneak Peek,
+        Treasure Box, Licensed Styles, SKIP HOP®, Doorbusters, and Clearance.
+        Other exclusions may apply. *MSRP is our Manufacturer’s Suggested Retail
+        Price at which we suggest our collections be initially offered. We list
+        an MSRP on our products that we sell ourselves and that sell through our
+        wholesale partners. Our wholesale partners are free to use our MSRP or
+        set a different selling price. We generally introduce our new
+        collections at MSRP on our website. Since MSRP is a suggested price,
+        actual sales may or may not have been made at MSRP in any certain area
+        or in all areas. Prices may vary by channel or location. Many of our
+        collections have a DOB (Date of Birth) on the price tag or on their
+        website product page. This is the date that this item or a similar item
+        was originally offered for sale at the MSRP.....
       </Text>
     </>
   );
